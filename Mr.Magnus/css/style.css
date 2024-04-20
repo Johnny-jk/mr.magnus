@@ -1,0 +1,20 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.container video{
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ width:100%;
+ height:auto;
+ 
+}
+
+@media screen {
+  .container video{
+    height: 100vh;
+    background:powderblue;
+  }
+}
